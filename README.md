@@ -20,6 +20,11 @@ Run the vite dev environment
 npm run dev
 ```
 
+Once you have created a database locally and configured the credentials in .env, run the migrations
+```
+php artisan migrate
+```
+
 Run the DB seeder to generate 50 contacts
 ```
 php artisan db:seed
